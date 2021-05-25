@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.box{
+	height: 100px;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.slider{
+	overflow: hidden;
+	background-color: black;
+}
+
+.nav-link{
+    display: block;
+    padding: 0.5rem 2rem !important;
+	color: white;
+}
+.search-button{
+	padding-left: 2rem;
+}
+
+.carousel-item{
+	position: relative;
+}
+
+.text-1{
+	position: absolute;
+	
+	z-index: 20;
+	background-color: red;
+	width: 30%;
+	top: 50%;
+	right: 50%;
+}
+
+.text-1 h1{
+	font-size: 1.5vw;
+}
+
+#header{
+	transition: all 0.5s;
+}
+
+.service{
+	background-color: black;
+	
+}
+.service-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	box-sizing: border-box;
+	
+}
+
+.service-card h1{
+	color: #9BD239;
+}
+.card{
+	background-color: black;
+	border: 1px solid gray;
+	margin: 10px 10px;
+	color: white;
+}
+
+.showcase-box{
+	display: flex;
+	padding: 50px;
+	align-items: center;
+}
+
+.showcase h1{
+	color: #9BD239;
+}
+.showcase-img{
+	height: 500px;
+	width: 500px;
+	padding-top: 10px;
+	
+/*	background-color: red;*/
+}
+
+.showcase-text{
+	width: 50%;
+	color: white;
+	
+	
+}
+
+.vertical-img{
+/*	background-color: blue;*/
+	display: flex;
+}
+
+.vertical-img-1{
+	background-color: pink;
+	width: 220px;
+	height: 250px;
+	margin-right: 10px;
+}
+.vertical-img-2{
+	background-color: brown;
+	width: 220px;
+	height: 250px;
+}
+.horizontal-img{
+	width: 450px;
+	height: 200px;
+	background-color: green;
+	margin-top: 10px;
+}
+
+.showcase-img img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	
+}
+
+.card img{
+	width: 30%;
+	padding-top: 10px;
+	
+}
+
+.card{
+	display: flex;
+	align-items: center;
+	
+}
+.showcase{
+	background-color: black;
+}
+.showcase-box{
+	display: flex;
+	justify-content: center;
+}
+
+.fillout-form{
+	position: relative;
+}
+
+form{
+	background-color: black;
+}
+
+.form-control{
+	background-color: black;
+	color: a6b4c1 !important;
+}
+
+label{
+	color: white !important;
+}
+
+.btn-primary{
+	background-color: #9BD239;
+	border-color: #9BD239;
+}
+
+
+
+.portfolio-img{
+	background-color: black;
+	
+}
+
+.pricing{
+	background-color: black !important;
+	padding-bottom: 40px;
+}
+
+.pricing .btn-outline-dark{
+	color: white;
+}
+
+.pricing button:hover{
+	background-color: #9BD239 !important;
+}
+
+
+.pricing h1{
+	padding-left: 50px;
+	color: #9BD239;
+}
+
+
+
+	
+	
+
+  
